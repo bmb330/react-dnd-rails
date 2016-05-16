@@ -4,10 +4,11 @@
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Add these line to your application's Gemfile:
 
 ```ruby
 gem 'react-dnd-rails'
+gem 'react-dnd-html5-backend-rails'
 ```
 
 And then execute:
@@ -19,6 +20,13 @@ Or install it yourself as:
     $ gem install react-dnd-rails
 
 ## Usage
+
+Require ReactDnD in your application.js:
+
+```js
+//= require ReactDnDHTML5Backend.min.js
+//= require ReactDnD
+```
 
 See docs for [React DnD](http://gaearon.github.io/react-dnd/)
 
