@@ -3,7 +3,8 @@ require "react/dnd/rails/version"
 module React
   module Dnd
     module Rails
-      # Your code goes here...
+      class Engine < ::Rails::Engine
+      end
     end
   end
 end
