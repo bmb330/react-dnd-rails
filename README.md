@@ -1,4 +1,4 @@
-# React::Dnd::Rails
+# react-dnd-rails
 
 [React DnD](http://gaearon.github.io/react-dnd/) for Rails
 
